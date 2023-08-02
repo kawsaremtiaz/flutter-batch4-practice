@@ -25,13 +25,5 @@ void main() {
   
   print(aname);
   
-  double number = 3.14159265359;
-  String formattedNumber = number.toStringAsFixed(5);
-  
-  print("Formatted Number: $formattedNumber");
-  
-  List <int> numbers1 = [1,2,3,4,5];
-  List <int> numbers2 = [6,7,8];
-  numbers2.addAll(numbers1);
-  print(numbers2);
+ 
 }
