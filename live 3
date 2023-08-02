@@ -1,0 +1,37 @@
+void main() {
+  List <String> student = ['kawsar', 'babu', 'kabu'];
+  student.add('emtiaz');
+  student.addAll(['asif', 'asif', 'lamiya', 'bulbul']);
+  print(student);
+  List <double> results = [];
+  results.addAll([3.4, 5, 2.5]);
+  results.insert(2, 4.8);
+  results.remove(5);
+  print(results);
+  print(results.length);
+  print(results.isEmpty);
+  
+  Set <int> Numbers = {1, 2, 2, 3, 4, 4};
+  print(Numbers);
+  
+  Set <String> cityName = {'Dhaka', 'Chotogram', 'Rongpur', 'Rongpur', 'Dhaka'};
+  print(cityName);
+  
+  var aname = 'dada';
+  
+  aname = aname + ' vai';
+  
+  aname = aname + ' name amar';
+  
+  print(aname);
+  
+  double number = 3.14159265359;
+  String formattedNumber = number.toStringAsFixed(5);
+  
+  print("Formatted Number: $formattedNumber");
+  
+  List <int> numbers1 = [1,2,3,4,5];
+  List <int> numbers2 = [6,7,8];
+  numbers2.addAll(numbers1);
+  print(numbers2);
+}
